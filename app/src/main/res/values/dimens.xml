@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="margin_new_message">16dp</dimen>
+    <dimen name="max_height_header">180dp</dimen>
+    <dimen name="drawer_horizontal_padding">16dp</dimen>
+    <dimen name="height_subtitle_header">56dp</dimen>
+    <dimen name="space_between_content">8dp</dimen>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/max_height_header"
+    android:background="@drawable/background_material"
+    android:paddingLeft="@dimen/drawer_horizontal_padding"
+    android:paddingRight="@dimen/drawer_horizontal_padding"
+    android:gravity="bottom"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:gravity="bottom"
+        android:paddingBottom="@dimen/space_between_content"
+        android:layout_height="@dimen/height_subtitle_header">
+
+        <TextView
+            android:id="@+id/text_name"
+            android:text="@string/next_university"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text_email"
+            android:text="usuario@nextuniversity.com"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+            style="@style/Widget.AppCompat.Spinner"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

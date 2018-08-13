@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/r_layout2"
+    tools:context="com.nextuniversity.gmail.MarioMensajePre">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@drawable/redactar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText5"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:background="@drawable/que_paso"
+                android:text=""
+                android:textColor="@color/negro"
+                android:textSize="16dp"
+                android:layout_marginTop="25dp"
+                android:textStyle="bold|normal" />
+
+            <EditText
+                android:id="@+id/editText6"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:ems="10"
+                android:inputType="textMultiLine"
+                android:background="@drawable/descripcion"
+                android:text=""
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/negro"
+                android:layout_marginTop="25dp"
+                android:textSize="16dp"
+                android:textStyle="normal|bold"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="450dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                app:srcCompat="@drawable/default_post" />
+
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/animaenviar" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtOri"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text=""
+            android:textSize="0dp"
+            android:textColor="@color/Transparente" />
+
+        <TextView
+            android:id="@+id/txtOri2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="0dp"
+            android:text=""
+            android:textColor="@color/Transparente" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

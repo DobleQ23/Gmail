@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Gmail</string>
+
+    <string name="primary">Nota de Agente</string>
+    <string name="social">Ubicacion</string>
+    <string name="promotions">Reporte</string>
+    <string name="promotions1">Visualizacion Reporte</string>
+    <string name="updates">Busqueda/DNI</string>
+    <string name="all_labels">Todas las etiquetas</string>
+    <string name="starred">Destacados</string>
+    <string name="important">Importantes</string>
+    <string name="spam">Spam</string>
+    <string name="trash">Papelera</string>
+    <string name="settings">Configuración</string>
+    <string name="help">Ayuda y comentarios</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="next_university">Next University</string>
+    <string name="nav_updates1">Reporte</string>
+    <string name="app_name2">Nota de Agente</string>
+    <string name="title_activity_login">Localizador</string>
+    <string name="cambiar"><u>Cambiar Contraseña</u></string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+
+</resources>

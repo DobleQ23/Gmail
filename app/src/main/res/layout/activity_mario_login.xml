@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/r_layout"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:background="@color/colorPrimaryDark"
+    tools:context=".MarioLogin">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="220dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/titulo"/>
+
+        <LinearLayout
+            android:layout_width="275dp"
+            android:layout_height="175dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@drawable/caja">
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/Usuario"
+                android:layout_width="225dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColorHint="@color/gris">
+
+                <EditText
+                    android:id="@+id/editText"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:background="@color/colorPrimary"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:hint="USUARIO"
+                    android:inputType="textPersonName"
+                    android:textColor="@color/blanco"
+                    android:textSize="18dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:id="@+id/Contraseña"
+                android:layout_width="225dp"
+                android:layout_height="40dp"
+                android:gravity="center"
+                android:textColorHint="@color/gris"
+                android:layout_marginTop="7dp">
+
+                <EditText
+                    android:id="@+id/editText2"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:background="@color/colorPrimary"
+                    android:ems="10"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:hint="CONTRASEÑA"
+                    android:inputType="textPassword"
+                    android:textColor="@color/blanco"
+                    android:textSize="18dp"/>
+
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="100dp"
+                android:layout_height="30dp"
+                android:text="INGRESAR"
+                android:textStyle="bold"
+                android:textSize="16dp"
+                android:layout_marginTop="15dp"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:background="@color/colorAccent"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="175dp"
+                android:layout_height="275dp"
+                android:background="@drawable/login"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

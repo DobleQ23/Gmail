@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="660dp"
+    android:orientation="vertical"
+    android:background="@drawable/redactar"
+    tools:context="com.nextuniversity.gmail.MarioMensaje">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="300dp"
+                android:layout_height="380dp"
+                android:orientation="vertical"
+                android:layout_gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:layout_marginTop="15dp">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="¿QUÉ PASO?:"
+                        android:textColor="@color/colorGreen"
+                        android:textSize="20sp"
+                        android:textStyle="italic|bold" />
+
+                    <EditText
+                        android:id="@+id/editText3"
+                        android:layout_width="300dp"
+                        android:layout_height="70dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:background="@drawable/title"
+                        android:text=""
+                        android:textColor="#555"
+                        android:textSize="16dp"
+                        android:textStyle="italic|bold"
+                        android:layout_marginTop="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="15sp"
+                    android:gravity="center">
+
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="126dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="CUENTAME:"
+                        android:textColor="@color/colorGreen"
+                        android:textSize="20sp"
+                        android:textStyle="italic|bold" />
+
+                    <EditText
+                        android:id="@+id/editText4"
+                        android:layout_width="300dp"
+                        android:layout_height="150dp"
+                        android:ems="10"
+                        android:gravity="center"
+                        android:inputType="textMultiLine"
+                        android:layout_marginTop="10dp"
+                        android:text=""
+                        android:textColor="#555"
+                        android:padding="5dp"
+                        android:background="@drawable/asunto"
+                        android:textSize="16sp"
+                        android:textStyle="bold|italic" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:layout_marginTop="10dp">
+
+                        <Spinner
+                            android:id="@+id/spinnerFactor"
+                            android:layout_width="250dp"
+                            android:layout_height="90dp"
+                            android:layout_below="@+id/tv_titulo"
+                            android:background="@color/colorGreen">
+
+                        </Spinner>
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:isScrollContainer="true"
+                android:orientation="horizontal"
+
+                android:verticalScrollbarPosition="left"
+                android:visibility="visible"
+                android:background="@drawable/fotos">
+
+                <LinearLayout
+                    android:id="@+id/linearImage"
+                    android:layout_width="385dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:padding="5dp"
+                    android:layout_gravity="center"
+                    android:gravity="center">
+
+                </LinearLayout>
+            </HorizontalScrollView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginTop="25dp">
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:background="@drawable/animacamara" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginLeft="150dp"
+                    android:background="@drawable/animaenviar"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</RelativeLayout>
